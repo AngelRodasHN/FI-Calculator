@@ -1,0 +1,53 @@
+.backgorund{
+position: relative;
+width: 100vw;
+height: 100vw;
+background: #BBEFFF;
+}
+
+.cardBackgroundLogin{
+position: absolute;
+width: 70vw;
+height: 40vw;
+margin-left: 15vw;
+margin-right: 15vw;
+margin-top: 5vw;
+margin-bottom: 5vw;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.title{
+position: relative;
+text-align:center;
+padding-top: 1%;
+padding-bottom: 1%;
+width: 100%;
+height: 15%;
+background: #BBEFFF;
+opacity: 0.5;
+border-radius: 10px;
+}
+
+.loginBox{
+ position: relative;
+margin-top: 8%;
+margin-bottom: 8%;
+margin-left: 8%;
+margin-right: 8%;
+width: 84%;
+height: 70%;
+background: #DDF7FF;
+border-radius: 10px;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row{
+      position: relative;
+      overflow-wrap: normal;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
