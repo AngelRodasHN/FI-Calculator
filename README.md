@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+This project will be my submission for the Developer Challenge given to me by Acklen Avenue. This goal of this project is to showcast my habilities and my with the final goal of qualifing for a job position as a Junior Developer at Acklen Avenue. 
