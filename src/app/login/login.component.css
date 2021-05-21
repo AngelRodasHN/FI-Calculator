@@ -1,0 +1,78 @@
+
+
+.body{
+    position: absolute;
+   
+    width: 100%;
+    height: 100%;
+    background-color: rgba(187, 239, 255, 0.39);
+}
+
+.loginBack{
+    position: relative;
+    margin-top: 5%;
+    height: 70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 5%;
+    width:80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.loginCard{
+    position: relative;
+    margin-left:20%;
+    margin-right:20%;
+ 
+    width:60%;
+    height: 100%;
+}
+.row{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    
+}
+.center{
+    position: absolute;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+    height: 90%;
+    margin-top: 5%;
+    width:80%;
+    
+    background-color:rgba(221, 247, 255, 1)
+}
+.title{
+    position: relative;
+    background-color: rgba(187, 239, 255, 1);
+    
+    
+    width: 100%;
+    height: 15%;
+    text-align: center;
+
+}
+.btn{
+    background-color: rgba(187, 239, 255, 1);
+    color: black;
+    width: 60%;
+    height: 15%;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.btn:hover{
+    background-color: rgb(101, 206, 238);
+    color: black;
+    width: 60%;
+    height: 15%;
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
