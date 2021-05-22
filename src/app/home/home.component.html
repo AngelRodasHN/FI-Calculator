@@ -11,7 +11,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(187, 239, 255, 1);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Fi Calculator</a>
+            <a class="navbar-brand" [routerLink]="['/Home']">Fi Calculator</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Calculator</a>
+                        <a class="nav-link" [routerLink]="['/Calculator']">Calculator</a>
                     </li>
                 </ul>
                 <div>
@@ -82,7 +82,7 @@
 
             </div>
             <div class="col">
-                <button type="button" class="btn" style="width: 70%;height: 50%;">Try the Calculator!</button>
+                <a type="button" class="btn" [routerLink]="['/Calculator']" style="width: 70%;height: 50%; display: flex; justify-content: center; align-items: center;">Try the Calculator!</a>
 
             </div>
 
