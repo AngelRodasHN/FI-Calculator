@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.2/firebase-app.js"></script>
+    <script src="/__/firebase/8.6.2/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    
+    
+    
+    
+
     <link rel="stylesheet" href="login.component.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +26,11 @@
 </head>
 
 
+
 <body>
-    <div class="body" >
-         
+   
+    <div class="body">
+
         <div class="loginBack">
             <div class="loginCard">
                 <div class="center">
@@ -19,31 +38,43 @@
                         <h2 style="padding: 2%;">FI Calculator</h2>
                     </div>
                     <div class="row">
-                     
-                        <label for="exampleFormControlInput1" class="form-label">Username</label>
-                        <input type="text" class="form-control" id="username" placeholder="username">
-                   
-    
-                </div>
-                <div class="row">
-                    
+
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Example@FiCalculator.com">
+
+
+                    </div>
+                    <div class="row">
+
                         <label for="exampleFormControlInput1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="password" placeholder="password">
+
+
+                    </div>
+
                     
-    
-                </div>
-                <button class="btn" type="button">Login</button>
+                    <div class="row" style="margin-top: 2%;">
+
+                       
+                       
+                        <button class="btn"  type="button">Login</button>
+                        <button class="btn"  type="button">Sign Up</button>
+                    </div>
+                        
+
+                   
+                  
 
                 </div>
-                
-                 
-                
+
+
+
 
             </div>
 
         </div>
     </div>
-   
+
 </body>
 
 </html>
